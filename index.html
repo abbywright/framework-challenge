@@ -1,14 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="screen.css">
   </head>
-  <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
-  </body>
+<body>
+  <nav class="navbar sticky-top bg-body-tertiary">
+   <div class="container-fluid">
+     <a class="navbar-brand" href="#">ELFF</a>
+     <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sponsors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Volunteer</a>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Film Festivals
+         </a>
+         <ul class="dropdown-menu">
+           <li><a class="dropdown-item" href="#">Indie Film Series</a></li>
+           <li><a class="dropdown-item" href="#">LMFF</a></li>
+           <li><a class="dropdown-item" href="#">Currently Showing</a></li>
+           <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Film Features A-Z</a></li>
+         </ul>
+       </li>
+    </ul>
+   </div>
+ </nav>
+
+   <h3 class="contact-us">Contact Us</h3>
+   <form class="contact-form">
+    <div class="mb-3">
+      <label for="InputName" class="form-label">Name</label>
+      <input type="text" class="form-control form-control-sm" id="InputName">
+    </div>
+    <div class="mb-3">
+      <label for="InputEmail" class="form-label">Email address</label>
+      <input type="text" class="form-control form-control-sm" id="InputEmail">
+    </div>
+    <div class="mb-3">
+      <label for="InputSubject" class="form-label">Subject</label>
+      <input type="text" class="form-control form-control-sm" id="InputSubject">
+    </div>
+  <div class="mb-3">
+     <label for="Textarea" class="form-label">Comments</label>
+     <textarea class="form-control" id="Textarea" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+
+ <!-- ELFF Office -->
+<div class="elff-office">
+ <div class="float-end">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.382574755682!2d-84.47397248778715!3d42.737957371040075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8822e82fa751d229%3A0x2ec5e1910ba07b0!2s510%20Kedzie%20St%2C%20East%20Lansing%2C%20MI%2048823!5e0!3m2!1sen!2sus!4v1699564610372!5m2!1sen!2sus" width="500" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+ <div class="office-content">
+   <h3>ELFF Office</h3>
+   <address>
+     510 Kedzie Street<br>
+     East Lansing, MI 48823<br>
+     517-980-5802<br>
+   </address>
+ </div>
+</div>
+
+<!-- staff -->
+<div class="staff">
+<h3>Staff</h3>
+ <div class="container text-left">
+ <div class="row row-cols-2 staff-section">
+   <div class="col">Susan W. Woods</div>
+   <div class="col">Director</div>
+   <div class="col">Erika Noud</div>
+   <div class="col">Lake Michigan Film Festival Director</div>
+   <div class="col">Kristoffer Bakken</div>
+   <div class="col">Website</div>
+   <div class="col">Rachel Harper</div>
+   <div class="col">Graphic Design</div>
+   <div class="col">Randy Flick II</div>
+   <div class="col">Festival Tech Wizard</div>
+ </div>
+</div>
+ 
+<h5>ELFF Film Selection Committee</h5>
+ <div class="container text-left">
+   <div class="row row-cols-2 staff-section">
+     <div class="col">Cathy Allen</div>
+     <div class="col">Gretchen Millich</div>
+     <div class="col">Justin DeRaedt</div>
+     <div class="col">Elaine Steffek</div>
+     <div class="col">Norma Eppinger</div>
+     <div class="col">Louis Villafranca</div>
+     <div class="col">Sherri Hillman</div>
+     <div class="col">Susan W. Woods</div>
+   </div>
+ </div>
+ 
+<h4>Boards</h4>
+ <div class="container text-center">
+ <div class="row">
+   <div class="col">
+     <h5>Board of Directors</h5>
+   </div>
+   <div class="col">
+     <h5>Industry Advisory Board</h5>
+   </div>
+ </div>
+ <div class="row">
+   <div class="col">
+     <div class="col">Bob Baldori</div>
+       <div class="col">Jerre Cory</div>
+       <div class="col">Rola Nashef</div>
+       <div class="col">Nick Pope</div>
+       <div class="col">John Valadez</div>
+       <div class="col">Jennifer White</div>
+   </div>
+   <div class="col">
+     <div class="col">Mike Binder</div>
+       <div class="col">Bob Brown</div>
+       <div class="col">Timothy Busfield</div>
+       <div class="col">Bruce Campbell</div>
+       <div class="col">Melissa Gilbert</div>
+       <div class="col">Mike Lobell</div>
+       <div class="col">Michael Moore</div>
+       <div class="col">Taylor Nichols</div>
+   </div>
+ </div>
+</div>
+</div>
+</body>
 </html>

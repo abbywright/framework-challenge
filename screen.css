@@ -1,1 +1,52 @@
-/* Add screen styles below */
+body {
+   margin: 30px;
+   padding: 10px 30px;
+ }
+ 
+ h3 {
+   padding-bottom: 8px;
+ }
+
+ .contact-us {
+   margin-top: 20px;
+   padding-top: 10px;
+ }
+ 
+ .contact-form, .elff-office, .staff {
+   padding-bottom: 30px;
+   border-bottom: 2px solid blue;
+ }
+ 
+ .elff-office, .staff {
+   padding-top: 20px;
+ }
+ 
+ .float-end {
+   margin-right: 10px;
+   padding-right: 10px;
+ }
+ 
+ address {
+   font-size: 1.1rem;
+ }
+ 
+ iframe {
+   padding-bottom: 20px;
+ }
+ 
+ h4, h5 {
+   padding: 20px 0 10px 0;
+ }
+
+ .staff-section {
+   padding-bottom: 20px;
+   border-bottom: 1px solid lightpink;
+ }
+
+ .container-fluid {
+   background: rgba(5, 135, 228, 0.48);
+ }
+
+ nav {
+   margin: 0 auto;
+ }
